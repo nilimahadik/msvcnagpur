@@ -41,9 +41,10 @@ const navItems = [
     href: "",
     subNavItems: [
       { id: 1, name: "Doctor login", href: "/about" },
-      { id: 2, name: "Provisional Registration", href: "/volunteers" },
-      { id: 3, name: "New Registration", href: "/gallery" },
-      { id: 4, name: "Renewal Registration", href: "/become-volunteer" },
+      { id: 2, name: "Provisional Registration", href: "/provisionalreg" },
+      { id: 3, name: "New Registration", href: "/newregistration" },
+
+      { id: 4, name: "Renewal Registration", href: "/renewalreg" },
     ],
   },
   {
@@ -83,13 +84,12 @@ const navItems = [
     href: "/contact",
     subNavItems: [],
   },
+  {
+    id: 7,
+    name: "Gallery",
+    href: "/gallery",
+    subNavItems: [],
+  },
 ];
 
 export default navItems;
-
-export const social = [
-  { icon: "fa-twitter", link: "" },
-  { icon: "fa-facebook-square", link: "" },
-  { icon: "fa-dribbble", link: "" },
-  { icon: "fa-instagram", link: "" },
-];

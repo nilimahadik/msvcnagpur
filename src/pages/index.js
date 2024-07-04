@@ -18,9 +18,12 @@ const Home = () => {
   
 
   return (
-    <Layout pageTitle="Home One">
-      
-      <MainSlider  />
+    <Layout pageTitle="MSVC || Nagpur">
+      <br/>
+      <br/>
+      <br/>
+      <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+      {/* <MainSlider  /> */}
       <Charity />
       <Counters className="about-page-counter"  />
       <TeamOne />

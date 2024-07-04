@@ -6,12 +6,14 @@ import "@/vendors/fontawesome/css/all.min.css";
 import "@/vendors/animate/animate.min.css";
 import "node_modules/swiper/swiper-bundle.min.css";
 import "tiny-slider/dist/tiny-slider.css";
-import { appWithTranslation } from 'next-i18next';
 
 // extra css
 import "@/styles/globals.css";
 import "@/styles/halpes.css";
 import "@/styles/halpes-responsive.css";
+// import 'antd/dist/antd.css';
+
+
 
 const MyApp = ({ Component, pageProps }) => {
   return (
@@ -21,14 +23,4 @@ const MyApp = ({ Component, pageProps }) => {
   );
 };
 
-export default appWithTranslation(MyApp);
-
-// import React from 'react';
-// import { appWithTranslation } from 'next-i18next';
-// import '../styles/globals.css';
-
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />;
-// }
-
-// export default appWithTranslation(MyApp);
+export default MyApp;

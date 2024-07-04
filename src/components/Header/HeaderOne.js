@@ -24,7 +24,7 @@ const HeaderOne = () => {
               </Link>
             </div>
             <div className="main-header-two__contact-info">
-              <ul className="main-header-two__contact-list list-unstyled">
+              {/* <ul className="main-header-two__contact-list list-unstyled">
                 <li>
                   <div className="main-header-two__contact-icon">
                     <span className="icon-chat"></span>
@@ -54,6 +54,13 @@ const HeaderOne = () => {
                     <h5>Civil Lines,Nagpur</h5>
                   </div>
                 </li>
+              </ul> */}
+               <ul className="main-header-two__contact-list list-unstyled ">
+                <li>
+                 <p style={{fontSize:"40px",color:"white"}}>Maharashtra State Veternary Council </p>
+                 {/* <p style={{fontSize:"40px",color:"white",marginLeft:"200px"}}>Council, Nagpur</p> */}
+                </li>
+              
               </ul>
               <div className="main-header-two__btn">
                 <Link href="/causes-details" legacyBehavior>

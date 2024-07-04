@@ -95,11 +95,11 @@ const HeaderTwo = () => {
               </ul>
               <div className="main-menu__right">
                 <div className="main-menu__right-social">
-                  {social.map(({ icon, link }, index) => (
+                  {/* {social.map(({ icon, link }, index) => (
                     <a href={link} key={index}>
                       <i className={`fab ${icon}`}></i>
                     </a>
-                  ))}
+                  ))} */}
                 </div>
                 <span
                   onClick={toggleSearch}

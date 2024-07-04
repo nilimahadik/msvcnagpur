@@ -58,13 +58,13 @@ const HeaderThree = () => {
               </div>
             </div>
             <div className="main-menu__right main-menu__right-three">
-              <div className="main-menu__right-social">
+              {/* <div className="main-menu__right-social">
                 {social.map(({ icon, link }, index) => (
                   <a href={link} key={index}>
                     <i className={`fab ${icon}`}></i>
                   </a>
                 ))}
-              </div>
+              </div> */}
               <span
                 onClick={toggleSearch}
                 style={{ cursor: "pointer" }}

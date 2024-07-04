@@ -107,7 +107,7 @@ const SiteFooter = () => {
               className="wow fadeInUp"
               data-wow-delay="400ms"
             >
-              <div className="footer-widget__column footer-widget__newsletter">
+              {/* <div className="footer-widget__column footer-widget__newsletter">
                 <h3 className="footer-widget__title">Newsletter</h3>
                 <p className="footer-widget__newsletter-text">
 Content Required                </p>
@@ -124,7 +124,7 @@ Content Required                </p>
                     <i className="fas fa-arrow-circle-right"></i>Send
                   </button>
                 </form>
-              </div>
+              </div> */}
             </Col>
           </Row>
         </div>
